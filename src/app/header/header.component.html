@@ -1,0 +1,9 @@
+<div id="header">
+ 
+ <img src="\assets\logo3.PNG">
+
+ <div id="description">my niece.     she is the sweet girl, </div>
+<div id="nav">
+ <app-nav *ngFor="let item of navService.navItems" [text]="item.text" [routerLink]="item.url"></app-nav>
+</div>
+</div>

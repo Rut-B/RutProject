@@ -1,0 +1,17 @@
+#nav{
+    width:55px;
+    height: 30px;
+    background-color:#de3abc;
+}
+div{
+    margin-left: 1%;
+    display: inline;
+    &:hover{ 
+    opacity: 0.7;
+    }
+    padding: 10px;
+    color:white;
+    border: 1px solid #881571;
+    border-radius: 1px;
+  
+    }
