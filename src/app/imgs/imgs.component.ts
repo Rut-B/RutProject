@@ -25,7 +25,7 @@ this.images = [
 this.urlImage=this.image;
 setInterval(() => {
   this.urlImage=this.image;
-},7000)
+},10000)
 
   }
 public get image():string{
